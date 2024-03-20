@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+#room {
+    margin: 0;
+    padding: 0;
+    width: 1650px;
+    height: 900px;
+    background-image:url("kamer.png");
+}
+
+#door{
+    left: 42px;
+    margin: 228px;
+    padding: 0px;
+    position: absolute;
+}
+#slot{
+    width: 56px;
+    top: 103px;
+    left: 433px;
+    margin: 225px;
+    padding: 0px;
+    position: absolute;
+   
+}
+
+#slot:hover{
+    cursor: pointer;
+}
+
+#doorslot{
+    width: 50px;
+    top: 220px;
+    left: 428px;
+    margin: 225px;
+    padding: 0px;
+    position: absolute;
+}
+
+#tafel{
+    top: 360px;
+    left: 560px;
+    margin: 60px;
+    padding: 0px;
+    position: absolute;
+}
+
+#laptop{
+    top: 475px;
+    left: 760px;
+    margin: 60px;
+    padding: 0px;
+    position: absolute;
+}
+
+#Calculator{
+    height: 10%;
+    top: 575px;
+    left: 660px;
+    margin: 60px;
+    padding: 0px;
+    position: absolute;
+}
+
+#painting{
+    height: 50%;
+    top: 180px;
+    left: -20px;
+    margin: 60px;
+    padding: 0px;
+    position: absolute;
+}
+
+#kast{
+    top: 70px;
+    left: 1000px;
+    margin: 60px;
+    padding: 0px;
+    position: absolute;
+}

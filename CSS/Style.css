@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    border: 0px;
+    color: black;
+    background-color: darkgray;
+}
+
+h1,h2
+ {
+    padding: 0px;
+    font-weight: 100;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+summary {
+  text-align: center;
+}
+
+details {
+    max-width: 500px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+
+.content {
+    border-top: none;
+    padding: 10px;
+    border: 2px solid #403a3a;
+    border-top: none;
+    text-align: center;
+  }
+
+.btn1, .btn2 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

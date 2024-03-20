@@ -1,0 +1,26 @@
+
+* {
+  margin: 0px;
+  border: 0px;
+  color: rgb(255, 255, 255);
+  background-image: url("Numbers-Background.jpg")
+}
+
+h1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 4px;
+  font-weight: 100;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#center {  
+  margin-top: 50px;
+  text-align: center;  
+  }  
+
+button {
+  font-size: xx-large;
+}

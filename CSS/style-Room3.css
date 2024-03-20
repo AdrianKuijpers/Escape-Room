@@ -1,0 +1,107 @@
+html,
+body {
+  font-family: 'poppins', sans-serif;
+  height: 100%;
+  background: radial-gradient(rgba(219, 0, 212, 0.56), #000);
+  overflow: hidden;
+  color: #fff;
+  font-size: 18px;
+}
+
+.box {
+  position: absolute;
+  left: 160px;
+  top: 100px;
+  width: 1200px;
+  height: 500px;
+  border: 3mm ridge rgba(80, 0, 69, 0.701);
+  border-radius: 80px;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: fantasy;
+  background-color: rgb(162, 0, 162);
+}
+
+
+.vragen12 {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.vragen34 {
+  position: absolute;
+  left: 60%;
+  top: 29%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.btnResult {
+  font-family: fantasy;
+  position: absolute;
+  left: 730px;
+  top: 250px;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(216, 0, 0, 0.873);
+  color: white;
+  font-size: larger;
+  box-shadow: 0 0 25px #ff0000;
+}
+
+.btnResult:hover {
+  background-color: white;
+  color: rgb(255, 0, 0);
+  box-shadow: 0 0 5px #ff0000,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000,
+    0 0 100px #ff0000;
+}
+
+.resultaat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 43px;
+  color: rgb(18, 0, 54);
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  left: 542px;
+  top: 400px;
+  background-color: #fff;
+  border: solid 2px #fff;
+  box-shadow:
+    inset 60px 0 120px rgb(255, 0, 0),
+    inset -60px 0 120px rgba(196, 0, 0, 0.674);
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.btn-primary {
+  background: darkblue;
+  box-shadow: 0 0 40px #50A7FF;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 5px #50A7FF,
+    0 0 25px #50A7FF,
+    0 0 50px #50A7FF,
+    0 0 100px #50A7FF;
+}

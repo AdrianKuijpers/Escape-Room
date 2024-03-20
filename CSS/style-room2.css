@@ -1,0 +1,96 @@
+html,
+body {
+  font-family: 'poppins', sans-serif;
+  height: 100%;
+  background: radial-gradient(rgb(84, 219, 0), #000);
+  overflow: hidden;
+  color: #fff;
+  font-size: 18px;
+}
+
+.box {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  width: 500px;
+  height: 500px;
+  border: 3mm ridge rgb(0, 80, 7);
+  border-radius: 80px;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: fantasy;
+  background-color: rgb(0, 255, 8);
+}
+
+.vragen {
+  position: absolute;
+  left: 530px;
+  top: 200px;
+}
+
+.btnResult {
+  font-family: fantasy;
+  position: absolute;
+  left: 850px;
+  top: 250px;
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  color: white;
+  font-size: larger;
+  box-shadow: 0 0 25px #50A7FF;
+}
+
+.btnResult:hover {
+  background-color: white;
+  color: darkblue;
+  box-shadow: 0 0 5px #50A7FF,
+    0 0 25px #50A7FF,
+    0 0 50px #50A7FF,
+    0 0 100px #50A7FF;
+}
+
+.resultaat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 43px;
+  color: rgb(18, 0, 54);
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  left: 320px;
+  top: 340px;
+  background-color: #fff;
+  border: solid 2px #fff;
+  box-shadow:
+    inset 60px 0 120px rgb(61, 43, 255),
+    inset -60px 0 120px #0ff;
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.btn-primary {
+  background: darkblue;
+  box-shadow: 0 0 40px #50A7FF;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 5px #50A7FF,
+    0 0 25px #50A7FF,
+    0 0 50px #50A7FF,
+    0 0 100px #50A7FF;
+}
